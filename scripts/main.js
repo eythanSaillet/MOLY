@@ -10,6 +10,7 @@ console.log(moly)
 
 let molyAnimation = new TimelineMax()
 
+
 molyAnimation.addLabel("sync")
 molyAnimation.from(moly[0],1.3,{ease: Power3.easeInOut,y:"100vh"},"sync")
 molyAnimation.from(moly[1],1.3,{ease: Power3.easeInOut,y:"-100vh"},"sync")
@@ -25,3 +26,20 @@ molyAnimation.from(".shop",0.3,{ease: Power3.easeInOut,opacity:0},"button")
 molyAnimation.from(".shop",0.3,{ease: Power3.easeInOut,y:15},"button")
 molyAnimation.from(".live",0.3,{ease: Power3.easeInOut,opacity:0},"button")
 molyAnimation.from(".live",0.3,{ease: Power3.easeInOut,y:15},"button")
+
+// video.addEventListener("click",function(){
+//   play()
+// })
+//
+// function play() {
+//   let playPromise = video.play()
+//
+//   if(playPromise !== undefined){
+//     playPromise.then(_ =>{
+//       video.play()
+//     })
+//     .catch(error => {
+//       console.log(error)
+//     })
+//   }
+// }
