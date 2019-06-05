@@ -1,0 +1,74 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-size:14px;
+  color:#444;
+  overflow: hidden;
+  background: #0000FF;
+}
+
+.moly{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.moly p{
+  font-size: 35vh;
+  padding: 2vw;
+  margin: 20vh 0 0 0;
+  position: relative;
+  color: #FF369B;
+}
+
+.line{
+  width: 75vw;
+  height: 3vh;
+  position: absolute;
+  background: #FF369B;
+  top:45vh;
+}
+
+.videoOverlay{
+  position: absolute;
+  height: 90vh;
+  width: 100%;
+  bottom: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.videoOverlay div{
+  border: 4px solid #FF369B;
+  height: 63px;
+  width: 185px;
+}
+
+.videoOverlay div p{
+  color: #FF369B;
+  font-size: 5vh;
+  width: 20vw;
+  margin: 0;
+  padding: 0.7vw;
+}
+a{
+  position:relative;
+  text-decoration: none;
+}
+
+.shop{
+  margin-right: 19vw;
+}
+
+.live{
+  margin-left: 19vw;
+}
+
+video{
+  position: absolute;
+  height: 83vh;
+  bottom: 0;
+}
