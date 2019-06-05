@@ -6,12 +6,14 @@ body{
   color:#444;
   overflow: hidden;
   background: #0000FF;
+  position: relative;
 }
 
 .moly{
   display: flex;
   justify-content: center;
   width: 100%;
+  height: 100vh;
 }
 
 .moly p{
@@ -28,6 +30,7 @@ body{
   position: absolute;
   background: #FF369B;
   top:45vh;
+  left: 12.5vw;
 }
 
 .videoOverlay{
